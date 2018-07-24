@@ -59,7 +59,7 @@ srand(time(NULL));
   }
   while (guess!=random_number)
   {
-    printf("Please enter your guess");
+    printf("Please enter your guess ");
     scanf ("%d", &guess);
     if (guess>random_number)
     {
